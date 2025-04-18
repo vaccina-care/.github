@@ -1,12 +1,8 @@
-# VaccinaCare - Frontend Application
+# VaccinaCare - CHILDREN VACCINATION CENTER
 
 <img src="https://github.com/vaccina-care/VaccinaCare.FE/blob/main/src/assets/showcase/logo.png" alt="VaccinaCare Logo" style="width:500px;"/>
 
 VaccinaCare is a comprehensive web application for managing vaccinations, designed to connect parents with healthcare providers for scheduling and tracking child vaccinations.
-
-## Overview
-
-This frontend application is built with React and TypeScript, utilizing modern web development tools and practices. It provides different interfaces for customers (parents), staff, and administrators.
 
 ## Features
 
@@ -42,39 +38,6 @@ This frontend application is built with React and TypeScript, utilizing modern w
 - **Animations**: Framer Motion
 - **Data Visualization**: Recharts
 
-## Project Structure
-
-```
-src/
-│
-├── api/              # API service layer
-│   ├── admin/        # Admin-specific API calls
-│   ├── staff/        # Staff-specific API calls
-│   └── ...           # Shared API services
-│
-├── components/       # React components
-│   ├── admin-dashboard/  # Admin interface components
-│   ├── staff-dashboard/  # Staff interface components
-│   ├── user-dashboard/   # User interface components
-│   ├── ui/               # Shared UI components
-│   └── ...               # Other components
-│
-├── contexts/         # React contexts for state management
-│   ├── AppointmentContext.tsx
-│   ├── AuthContexts.tsx
-│   └── ...
-│
-├── hooks/            # Custom React hooks
-│
-├── lib/              # Utility functions and helper libraries
-│
-├── pages/            # Page components for routing
-│   ├── admin/        # Admin pages
-│   ├── staff/        # Staff pages
-│   ├── user/         # User pages
-│   └── ...           # Shared pages
-│
-└── types/            # TypeScript type definitions
 ```
 
 ## Authentication and Authorization
